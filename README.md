@@ -136,13 +136,11 @@ Pre- and post-refactoring code is shown below to showcase the updates.
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
     End Sub
-
-‘’’
+'''
 
 ### Code After Refactoring
 
-‘’’
-
+'''
     Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
     Dim endTime  As Single
@@ -268,8 +266,7 @@ Pre- and post-refactoring code is shown below to showcase the updates.
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
     End Sub
-
-‘’’
+'''
 
 ## Summary
 Refactoring code can boost system performance and reduce the time needed to execute large VBA macros. This becomes increasingly important with larger datasets and datasets that are constantly updating. Due to the additional investments of time and work required to refactor code, it is important to weigh the pros and cons. For this project, refactored code ran roughly 12x faster than the original VBA script. This could prove beneficial if the code were used on larger datasets. However, refactoring was a time-intensive process, which was further impacted by my lack of significant experience writing VBA scripts.
