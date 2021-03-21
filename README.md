@@ -18,8 +18,9 @@ Pre- and post-refactoring code is shown below to showcase the updates.
 
 ### Code Prior to Refactoring
 
-‘’’
-Sub AllStocksAnalysisRefactored()
+'''
+
+    Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
     Dim endTime  As Single
 
@@ -134,14 +135,15 @@ Sub AllStocksAnalysisRefactored()
     endTime = Timer
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
-End Sub
+    End Sub
 
 ‘’’
 
 ### Code After Refactoring
 
 ‘’’
-Sub AllStocksAnalysisRefactored()
+
+    Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
     Dim endTime  As Single
 
@@ -265,8 +267,7 @@ Sub AllStocksAnalysisRefactored()
     endTime = Timer
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
-End Sub
-
+    End Sub
 
 ‘’’
 
