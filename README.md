@@ -141,6 +141,7 @@ Pre- and post-refactoring code is shown below to showcase the updates.
 ### Code After Refactoring
 
 '''
+
     Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
     Dim endTime  As Single
