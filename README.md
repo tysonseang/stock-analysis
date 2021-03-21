@@ -14,7 +14,7 @@ Following the refactoring of the script, execution times were significantly trim
 
 ![Refactored_Improvement.png](https://github.com/tysonseang/stock-analysis/blob/main/Resources/Refactored_Improvement.png)
 
-Pre- and post-refactoring code is shown below to showcase the updates. 
+The formatted 2017 and 2018 analysis can at the file titled VBA_Challenege located [here](https://github.com/tysonseang/stock-analysis/blob/main/VBA_Challenge.xlsm). Pre- and post-refactoring code is shown below to showcase the updates. 
 
 ### Code Prior to Refactoring
 
